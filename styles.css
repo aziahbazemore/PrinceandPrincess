@@ -1561,3 +1561,12 @@ body.jl-open{overflow:hidden}
   #journal-layer .jl-chrome{transition:none;opacity:1;transform:none}
   .ug-bg{animation:none}
 }
+
+/* Suit Vault: tighter image framing (less white space around portrait suit shots) */
+#suit-vault .sneaker-studio-canvas {
+  height: 340px;
+}
+#suit-vault .sneaker-studio-img {
+  max-width: 92%;
+  max-height: 92%;
+}
